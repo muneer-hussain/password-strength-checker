@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-color: #008299;
+}
+
+.strength-checker {
+    background-color: #fff;
+    width: 23vw;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 7px 59px rgba(0, 0, 0, 0.577);
+}
+
+input {
+    width: 16vw;
+    height: 30px;
+    border-radius: 6px;
+    border: 2px solid black;
+    outline: none;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+input:focus {
+    border: 2px solid black;
+}
+
+#enter-password {
+    text-align: center;
+}
+
+.showHide {
+    transform: translateX(-160%);
+}
+
+#info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+@media(max-width: 550px) {
+    .strength-checker {
+        width: 76vw;
+        height: fit-content;
+        padding: 20px;
+    }
+    input {
+        width: 65vw;
+        margin: 0;
+        padding: 0;
+    }
+    .showHide {
+        margin: 0;
+        padding: 0;
+        transform: translateX(-160%);
+        font-size: 14px;
+    }
+    #info {
+        margin: 0%;
+        padding: 0;
+        margin-top: 15px;
+    }
+}
