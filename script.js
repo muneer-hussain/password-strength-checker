@@ -15,7 +15,7 @@ eye.addEventListener("click", () => {
 // regEX 
 let cAlpha = /[A - Za-z]/;
 let num = /[0-9]/
-let scharecters = /[!,@,#,%,^,%,^,&,$,*,`,~,?,/,',",|]/;
+let scharecters = /[!,@,+,×,=,_,-,<,>,[,],(,),{,},#,%,^,%,^,&,$,*,`,~,?,/,',",|]/;
 
 let val = enter.value;
 
